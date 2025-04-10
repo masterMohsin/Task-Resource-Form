@@ -17,7 +17,7 @@ const Task = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-      <div className="bg-white shadow-md rounded-xl p-6">
+      <div className="bg-gray-100 shadow-md rounded-xl p-6">
         <h2 className="text-2xl font-bold text-blue-800 mb-6">Tax Resource Form</h2>
         <Formik
           initialValues={{ applicable_items: [] }}
